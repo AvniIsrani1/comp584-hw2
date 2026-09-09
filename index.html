@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title></title>
+		<title>CSUN | Welcome Incoming Matador!</title>
+		<!-- character encoding -->
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- responsiveness -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Microsoft-compatible -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<style type="text/css">
       /* CLIENT-SPECIFIC STYLES */
+	  		/* to prevent auto-text-resizing */
 			body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+			/* to prevent ms client from adding extra spacing in tables */
 			table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+			/* to help with image scaling fuzziness */
 			img { -ms-interpolation-mode: bicubic; }
 			
 			/* RESET STYLES */
 			img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+			/* no table cell outlines */
 			table { border-collapse: collapse !important; }
 			body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
 			
@@ -47,40 +54,112 @@
 			}
 
 			/* Universal styles for links and stuff */
+			a {
+				color: #a70101;
+				text-decoration: none;
+			}
 		
 
 			/* Responsive styles */
+			img {
+				height: auto;
+			}
 	
 		</style>
 	</head>
 	<body id="body" style="margin: 0 !important; padding: 0 !important;">
-
+	  <!-- generally safe elements for email: div, span, h1-h6, p, strong, em, img -->
+	  <!-- email-friendly css (text): color, font-family, font-style, font-weight, line-height, text-align -->
+	  <!-- email-friendly css (block-level elements): margin, padding, width, max-width, display -->
 
 
 	  <!-- Logo image -->
+	  <div style="padding:20px; background-color: #9e8181;">
+		<img src="images/logo.png" alt="Logo" style="width:100%; max-width:50px; display:inline-block; vertical-align: middle; margin-right:10px;">
+		<span style="font-weight:bold; font-size:larger;">CSUN | California State University, Northridge</span>
+	  </div>
 
     
     
-		<!-- Headline -->
-
+	  <!-- Headline -->
+	  <h1 style="text-align:center; color:#a70101; font-size:larger;">Welcome to CSUN!</h1>
     
     
-		<!-- Hero Image -->
-
-    
-
-		<!-- Body copy -->
+	  <!-- Hero Image -->
+	  <img src="images/hero.png" alt="CSUN Campus" style="width:100%; display:block;">
 
     
 
-		<!-- Button -->
+	  <!-- Body copy -->
+	  <!-- padding = top right bottom left -->
+	  <div class="information" style="padding:20px 20px 0 20px;">
+		<!-- lower-level heading (i.e. sub-heading) -->
+		<h2 style="font-style:italic; font-weight:bold; font-size:large; color:#a70101">Your Matador Journey</h2>
 
-    
-    
-		<!-- Footer information: Always include an unsubscribe link! -->
-
-
+		<!-- paragraphs (details) -->
+		<p style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; color:#a70101;">
+			Lorem ipsum <em>dolor</em> sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+		</p>
 		
+		<p style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; color:#000000;">
+			Lorem ipsum dolor sit amet consectetur adipiscing elit. <span style="color:#a70101; font-style: italic;">Quisque faucibus</span> ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+		</p>
+
+		<p style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; color:#000000;">
+			Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+		</p>
+
+		<p style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; color:#a70101;">
+			Lorem ipsum dolor sit amet consectetur <strong>dipiscing</strong> elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+		</p>
+	  </div>
+
+	  <div class="guidelines" style="padding:0 20px 20px 20px;;">
+		<!-- lower-level heading (i.e. sub-heading) -->
+		<h2 style="font-style:italic; font-weight:bold; font-size:large; color:#a70101;">Important Next Steps</h2>
+
+		<!-- paragraphs (details) -->
+		<p style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; color:#000000;">
+			Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+		</p>
+
+		<p style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; color:#000000;">
+			Lorem ipsum dolor sit amet consectetur dipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+		</p>
+
+		<!-- sub-sub heading -->
+		<div class="mistakes">
+			<h3 style="font-style:italic; font-size:medium; color:#a70101">Past Mistakes</h3>
+			<p style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; color:#000000;">
+				Lorem ipsum dolor sit amet consectetur dipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+			</p>
+			<p style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; color:#000000;">
+				Lorem ipsum dolor sit amet consectetur dipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+			</p>
+			<p style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:14px; color:#000000;">
+				Lorem ipsum dolor sit amet consectetur dipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+			</p>
+		</div>
+	  </div>
+    
+
+	  <!-- Button -->
+	  <div style="text-align:center">
+	  	<button style="padding:10px 50px; color:#a70101;background-color: #000000; font-size:medium; font-weight: bolder; border-radius:15px;">Tempus</button>
+	  </div>
+
+    
+    
+	  <!-- Footer information: Always include an unsubscribe link! -->
+	  <div class="footer" style="text-align:center; border-top:1px; margin-top:25px; background-color: #9e8181; padding:20px;">
+		<p>18111 Nordhoff St, Northridge, CA 91330</p>
+		<p>
+			<a href="https://portal.csun.edu/login">CSUN Portal</a>
+		</p>
+		<p>
+			<a href="">Unsubscribe</a>
+		</p>
+	  </div>
 
 	</body>
 </html>
